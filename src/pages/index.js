@@ -19,7 +19,7 @@ function IndexPage() {
             <div className="md:max-w-6xl md:mx-auto md:flex md:items-center md:justify-between">
               <div className="flex justify-between items-center">
                 <a
-                  href="https://o06vt.bemobtrcks.com/click"
+                  href="https://o06vt.bemobtrcks.com/go/775fc9bd-0f40-400f-abb0-21c8ccfd415d?adgroup={AdGroupId}&adid={AdId}&bidtype={BidMatchType}&campaignid={CampaignId}&orderid={OrderItemId}&device={Device}&match={MatchType}&targetid={TargetId}&querystring={QueryString}"
                   className="inline-block py-2 text-white text-xl font-bold"
                 >
                   Speechelo
@@ -45,7 +45,7 @@ function IndexPage() {
                     </p>
 
                     <a
-                      href="https://o06vt.bemobtrcks.com/click"
+                      href="https://o06vt.bemobtrcks.com/go/775fc9bd-0f40-400f-abb0-21c8ccfd415d?adgroup={AdGroupId}&adid={AdId}&bidtype={BidMatchType}&campaignid={CampaignId}&orderid={OrderItemId}&device={Device}&match={MatchType}&targetid={TargetId}&querystring={QueryString}"
                       className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white bg-red-500 hover:bg-red-600 rounded-lg shadow"
                     >
                       Try it NOW
