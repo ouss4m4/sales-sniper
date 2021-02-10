@@ -1,13 +1,13 @@
-const resolveConfig = require("tailwindcss/resolveConfig");
-const tailwindConfig = require("./tailwind.config.js");
+const resolveConfig = require('tailwindcss/resolveConfig');
+const tailwindConfig = require('./tailwind.config.js');
 
 const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `Sales Sniper | Content Creators Heaven`,
+    description: `The Best Softwares You Need For YouTube Channels, Instagram Posts And Content Creation Funnels. Start Your Digital Career With With Discounts`,
+    author: `Sales Sniper`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
@@ -19,7 +19,7 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: fullConfig.theme.colors.white,
-        theme_color: fullConfig.theme.colors.green["500"],
+        theme_color: fullConfig.theme.colors.green['500'],
         display: `minimal-ui`,
         icon: `src/images/tailwind-icon.png`,
       },
