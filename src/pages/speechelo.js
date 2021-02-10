@@ -5,8 +5,13 @@ function IndexPage() {
   return (
     <>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Home"
+        keywords={[
+          `speechelo`,
+          `voice over`,
+          `AI Voice Over`,
+          `speechelo discount`,
+        ]}
+        title="Speechelo"
       />
       <section className="text-center">
         <div>
@@ -81,20 +86,21 @@ function IndexPage() {
                 <div className="md:flex md:flex-wrap">
                   <div className="md:w-1/2 text-center md:text-left md:pt-16">
                     <h1 className="font-bold text-white text-2xl md:text-5xl leading-tight mb-4">
-                      Simple payment platform for any service
+                      People think I use a professional voiceover artist. NO! I
+                      just use Speechelo!
                     </h1>
 
                     <p className="text-indigo-200 md:text-xl md:pr-48">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Id vitae corrupti asperiores veritatis dolorum, commodi
-                      aperiam enim.
+                      Instantly Transform Any Text Into A 100% Human-Sounding
+                      VoiceOver with only 3 clicks!. We GUARANTEE no one will
+                      tell your voiceover is A.I. generated
                     </p>
 
                     <a
-                      href="#"
+                      href="https://3a17cpfbki-p5l2e28nxrd0b92.hop.clickbank.net/"
                       className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white bg-red-500 hover:bg-red-600 rounded-lg shadow"
                     >
-                      Get Started
+                      Try it NOW
                     </a>
                   </div>
                   <div className="md:w-1/2 relative">
@@ -128,8 +134,8 @@ function IndexPage() {
                         </div>
 
                         <div className="text-gray-800 text-center">
-                          Online <br />
-                          Services
+                          Cost <br />
+                          Effective
                         </div>
                       </div>
 
@@ -138,11 +144,11 @@ function IndexPage() {
                         style={{ transform: 'rotate(-8deg)', zIndex: '2' }}
                       >
                         <svg
-                          className="bg-indigo-800 mx-auto rounded-lg relative mb-8 py-2 w-20 border-2 border-white"
+                          className="text-indigo-800 mx-auto rounded-lg relative mb-8 py-2 w-20 border-2 border-white"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
-                          stroke="white"
+                          stroke="currentColor"
                         >
                           <path
                             strokeLinecap="round"
@@ -169,7 +175,7 @@ function IndexPage() {
                         </div> */}
 
                         <div className="text-gray-800 text-center">
-                          Banking Services
+                          100% Human Voices{' '}
                         </div>
                       </div>
 
@@ -181,23 +187,22 @@ function IndexPage() {
                           marginBottom: '-220px',
                         }}
                       >
-                        <div className="bg-indigo-800 mx-auto rounded-lg pt-4 mb-16 relative">
-                          <div className="h-4 bg-white"></div>
-
-                          <div className="text-right my-2 pb-1">
-                            <div className="inline-flex w-3 h-3 rounded-full bg-white -mr-2"></div>
-                            <div className="inline-flex w-3 h-3 rounded-full bg-indigo-800 border-2 border-white mr-2"></div>
-                          </div>
-
-                          <div className="-ml-4 -mb-6 absolute left-0 bottom-0 w-16 bg-green-700 mx-auto rounded-lg pb-2 pt-3">
-                            <div className="h-2 bg-white mb-2"></div>
-                            <div className="h-2 bg-white w-6 ml-auto rounded mr-2"></div>
-                          </div>
-                        </div>
+                        <svg
+                          className="text-indigo-800 mx-auto rounded-lg relative mb-8 py-2 w-20 border-2 border-white"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 006 6.93V17H6a1 1 0 100 2h8a1 1 0 100-2h-3v-2.07z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
 
                         <div className="text-gray-800 text-center">
-                          Payment for <br />
-                          Internet
+                          Text To <br />
+                          Speech
                         </div>
                       </div>
 
@@ -215,7 +220,7 @@ function IndexPage() {
                         ></div>
                         <div className="flex-1 p-6">
                           <h2 className="text-lg text-gray-700 font-bold mb-3">
-                            Popular Payments
+                            Instagram Posts
                           </h2>
                           <div className="flex mb-5">
                             <div className="w-16 rounded-full bg-gray-100 py-2 px-4 mr-2">
@@ -257,7 +262,7 @@ function IndexPage() {
                           </div>
 
                           <h2 className="text-lg text-gray-700 font-bold mb-3">
-                            Popular Payments
+                            Youtube Channel Boost
                           </h2>
 
                           <div className="w-full flex flex-wrap justify-between items-center border-b-2 border-gray-100 py-3">
@@ -363,7 +368,7 @@ function IndexPage() {
                       </div>
                       <div className="flex-1 px-4 py-8">
                         <h2 className="text-xs text-gray-700 font-bold mb-1">
-                          Popular Payments
+                          Youtube Channels Boosted
                         </h2>
                         <div className="flex mb-5">
                           <div className="p-2 w-12 rounded-full bg-gray-100 mr-2"></div>
@@ -478,7 +483,7 @@ function IndexPage() {
             </svg>
           </div>
 
-          <p className="text-center p-4 text-gray-600 pt-10">
+          {/* <p className="text-center p-4 text-gray-600 pt-10">
             Created by
             <a
               className="border-b text-blue-500"
@@ -497,7 +502,7 @@ function IndexPage() {
             >
               https://dribbble.com/vadimdrut
             </a>
-          </p>
+          </p> */}
         </div>
       </section>
     </>
